@@ -12,5 +12,5 @@ public class text {
         for (int i = 0; i < ps.PlanParkingnumber.size(); i++) {
             System.out.print(ps.addCar(ps.PlanParkingnumber.get(i))+" ");
         }
-    }
-}
+	System.out.println("fix分支上的修改");	
+    }}
