@@ -40,7 +40,11 @@ public class ParkingSystem implements IParking{
         }
         return false;
     }
-
+    public void prase()
+    {
+        System.out.println("123");
+    }
+    //加入prase方法
     public void print(String input) {
         String regex="\\p{Punct}";
         String [] str=input.split(regex);
